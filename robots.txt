@@ -1,5 +1,5 @@
 # robots.txt for Ahmed Abdelwahed Portfolio
-# https://abdelwahed22.github.io/
+# https://abdelwahed22.github.io/Abdelwahed/
 
 User-agent: *
 Allow: /
@@ -8,7 +8,7 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap
-Sitemap: https://abdelwahed22.github.io/sitemap.xml
+Sitemap: https://abdelwahed22.github.io/Abdelwahed/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 0
