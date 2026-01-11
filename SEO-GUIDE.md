@@ -209,7 +209,7 @@
 ```
 
 ### Future Optimizations (Optional)
-- Image optimization (compress 1.png)
+- Image optimization (compress 1.jpeg)
 - Lazy loading for images
 - Service Worker for PWA
 - Minify CSS/JS further

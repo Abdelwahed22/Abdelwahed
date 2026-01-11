@@ -108,7 +108,7 @@ git push -u origin main
 
 ✅ **Content SEO**
 - Keyword-rich headings (H1, H2, H3)
-- Alt text for images (update 1.png alt)
+- Alt text for images (update 1.jpeg alt)
 - Internal linking
 - Quality content
 - Professional portfolio
