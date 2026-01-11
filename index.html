@@ -83,113 +83,172 @@
     <link rel="stylesheet" href="dark-mode-fixes.css">
     <link rel="stylesheet" href="rtl.css">
     
-    <!-- Structured Data (JSON-LD) -->
+    <!-- Structured Data (JSON-LD) - Multiple Schema Types for Rich Results -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Ahmed Abdelwahed",
-      "url": "https://abdelwahed22.github.io/Abdelwahed/",
-      "image": "https://abdelwahed22.github.io/Abdelwahed/1.jpeg",
-      "sameAs": [
-        "https://github.com/abdelwahed22",
-        "https://linkedin.com/in/ahmed-abdelwahed"
-      ],
-      "jobTitle": "Full Stack Developer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelance"
-      },
-      "alumniOf": [
+      "@graph": [
         {
-          "@type": "EducationalOrganization",
-          "name": "Mansoura University",
+          "@type": "Person",
+          "@id": "https://abdelwahed22.github.io/Abdelwahed/#person",
+          "name": "Ahmed Abdelwahed",
+          "url": "https://abdelwahed22.github.io/Abdelwahed/",
+          "image": "https://abdelwahed22.github.io/Abdelwahed/1.jpeg",
+          "sameAs": [
+            "https://github.com/abdelwahed22",
+            "https://linkedin.com/in/ahmed-abdelwahed"
+          ],
+          "jobTitle": "Full Stack Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Freelance"
+          },
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "Mansoura University",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mansoura",
+                "addressCountry": "Egypt"
+              }
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "Information Technology Institute (ITI)",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mansoura",
+                "addressCountry": "Egypt"
+              }
+            }
+          ],
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Mansoura",
+            "addressLocality": "Zagazig",
+            "addressRegion": "Sharqia",
             "addressCountry": "Egypt"
+          },
+          "email": "abdelwahed1092@gmail.com",
+          "telephone": "+201007460135",
+          "knowsAbout": [
+            "ASP.NET Core",
+            "ASP.NET Core MVC",
+            "C# Programming",
+            "C Sharp",
+            ".NET Framework",
+            ".NET Core",
+            "Angular Framework",
+            "Angular 16",
+            "SQL Server",
+            "SQL Server Management Studio",
+            "T-SQL",
+            "Entity Framework Core",
+            "Entity Framework",
+            "Web API Development",
+            "RESTful API",
+            "Web Development",
+            "Full Stack Development",
+            "Backend Development",
+            "Frontend Development",
+            "TypeScript",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Bootstrap 5",
+            "Responsive Design",
+            "Git Version Control",
+            "GitHub",
+            "MVC Pattern",
+            "MVC Architecture",
+            "Object-Oriented Programming",
+            "OOP Principles",
+            "SOLID Principles",
+            "Design Patterns",
+            "Database Design",
+            "Problem Solving",
+            "Clean Code",
+            "Agile Methodology",
+            "Team Collaboration",
+            "Visual Studio",
+            "VS Code"
+          ],
+          "knowsLanguage": [
+            {
+              "@type": "Language",
+              "name": "Arabic",
+              "alternateName": "ar"
+            },
+            {
+              "@type": "Language",
+              "name": "English",
+              "alternateName": "en"
+            }
+          ],
+          "description": "Full Stack Developer from Egypt, specialized in ASP.NET Core, Angular, C#, Entity Framework, and SQL Server. Graduate of Mansoura University Faculty of Computers and Information with ITI certification. Led AI-powered graduation project for missing persons. Available for full-time opportunities and ready to relocate.",
+          "additionalName": "أحمد عبد الواحد",
+          "alternateName": ["Ahmed Abdelwahed", "أحمد عبد الواحد", "Ahmed", "Abdelwahed"],
+          "nationality": "Egyptian",
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Zagazig, Sharqia, Egypt"
           }
         },
         {
-          "@type": "EducationalOrganization",
-          "name": "Information Technology Institute (ITI)",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Mansoura",
-            "addressCountry": "Egypt"
-          }
-        }
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Zagazig",
-        "addressRegion": "Sharqia",
-        "addressCountry": "Egypt"
-      },
-      "email": "abdelwahed1092@gmail.com",
-      "telephone": "+201007460135",
-      "knowsAbout": [
-        "ASP.NET Core",
-        "ASP.NET Core MVC",
-        "C# Programming",
-        "C Sharp",
-        ".NET Framework",
-        ".NET Core",
-        "Angular Framework",
-        "Angular 16",
-        "SQL Server",
-        "SQL Server Management Studio",
-        "T-SQL",
-        "Entity Framework Core",
-        "Entity Framework",
-        "Web API Development",
-        "RESTful API",
-        "Web Development",
-        "Full Stack Development",
-        "Backend Development",
-        "Frontend Development",
-        "TypeScript",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Bootstrap 5",
-        "Responsive Design",
-        "Git Version Control",
-        "GitHub",
-        "MVC Pattern",
-        "MVC Architecture",
-        "Object-Oriented Programming",
-        "OOP Principles",
-        "SOLID Principles",
-        "Design Patterns",
-        "Database Design",
-        "Problem Solving",
-        "Clean Code",
-        "Agile Methodology",
-        "Team Collaboration",
-        "Visual Studio",
-        "VS Code"
-      ],
-      "knowsLanguage": [
-        {
-          "@type": "Language",
-          "name": "Arabic",
-          "alternateName": "ar"
+          "@type": "WebSite",
+          "@id": "https://abdelwahed22.github.io/Abdelwahed/#website",
+          "url": "https://abdelwahed22.github.io/Abdelwahed/",
+          "name": "Ahmed Abdelwahed Portfolio",
+          "description": "Professional portfolio of Ahmed Abdelwahed - Full Stack Developer",
+          "publisher": {
+            "@id": "https://abdelwahed22.github.io/Abdelwahed/#person"
+          },
+          "inLanguage": ["en", "ar"]
         },
         {
-          "@type": "Language",
-          "name": "English",
-          "alternateName": "en"
+          "@type": "ProfilePage",
+          "@id": "https://abdelwahed22.github.io/Abdelwahed/#profilepage",
+          "url": "https://abdelwahed22.github.io/Abdelwahed/",
+          "name": "Ahmed Abdelwahed - Full Stack Developer Portfolio",
+          "isPartOf": {
+            "@id": "https://abdelwahed22.github.io/Abdelwahed/#website"
+          },
+          "about": {
+            "@id": "https://abdelwahed22.github.io/Abdelwahed/#person"
+          },
+          "description": "Professional portfolio showcasing projects and skills of Ahmed Abdelwahed, Full Stack Developer specialized in ASP.NET Core and Angular",
+          "inLanguage": ["en", "ar"]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://abdelwahed22.github.io/Abdelwahed/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "About",
+              "item": "https://abdelwahed22.github.io/Abdelwahed/#about"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Projects",
+              "item": "https://abdelwahed22.github.io/Abdelwahed/#projects"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Contact",
+              "item": "https://abdelwahed22.github.io/Abdelwahed/#contact"
+            }
+          ]
         }
-      ],
-      "description": "Full Stack Developer from Egypt, specialized in ASP.NET Core, Angular, C#, Entity Framework, and SQL Server. Graduate of Mansoura University Faculty of Computers and Information with ITI certification. Led AI-powered graduation project for missing persons. Available for full-time opportunities and ready to relocate.",
-      "additionalName": "أحمد عبد الواحد",
-      "alternateName": ["Ahmed Abdelwahed", "أحمد عبد الواحد", "Ahmed", "Abdelwahed"],
-      "nationality": "Egyptian",
-      "homeLocation": {
-        "@type": "Place",
-        "name": "Zagazig, Sharqia, Egypt"
-      }
+      ]
     }
     </script>
 </head>
