@@ -1,0 +1,186 @@
+/* Additional Dark Mode Fixes for Text Visibility */
+
+/* Section Titles in Dark Mode */
+body.dark-mode .section-title h2,
+body.dark-mode .section-title h3 {
+    color: #e5e7eb !important;
+}
+
+/* Timeline Content in Dark Mode */
+body.dark-mode .timeline-content h4,
+body.dark-mode .timeline-content h5 {
+    color: #e5e7eb !important;
+}
+
+/* Skill Headers in Dark Mode */
+body.dark-mode .skill-header h4 {
+    color: #e5e7eb !important;
+}
+
+/* Interpersonal Skills in Dark Mode */
+body.dark-mode .interpersonal-skill p {
+    color: #e5e7eb !important;
+}
+
+/* Achievement Content in Dark Mode */
+body.dark-mode .achievement-content h5 {
+    color: #e5e7eb !important;
+}
+
+/* Activity Cards in Dark Mode */
+body.dark-mode .activity-card p,
+body.dark-mode .activity-card h5 {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .course-card h5 {
+    color: #4d9fff !important;
+}
+
+/* Contact Section in Dark Mode */
+body.dark-mode .contact-section-title {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .contact-text h5 {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .social-connect h5 {
+    color: #e5e7eb !important;
+}
+
+/* Project Titles in Dark Mode */
+body.dark-mode .project-title {
+    color: #e5e7eb !important;
+}
+
+/* Navbar Brand in Dark Mode */
+body.dark-mode .brand-name {
+    background: linear-gradient(to right, #4d9fff, #06b6d4) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+/* Form Labels in Dark Mode */
+body.dark-mode .form-label {
+    color: #e5e7eb !important;
+}
+
+/* Footer Headings in Dark Mode */
+body.dark-mode .footer-title {
+    color: #fff !important;
+}
+
+/* Ensure all paragraph text is visible in dark mode */
+body.dark-mode p {
+    color: #e5e7eb;
+}
+
+/* Ensure all strong text is visible */
+body.dark-mode strong {
+    color: #fff;
+}
+
+/* Project Description in Dark Mode */
+body.dark-mode .project-description {
+    color: rgba(229, 231, 235, 0.9);
+}
+
+/* Timeline content paragraphs */
+body.dark-mode .timeline-content p {
+    color: rgba(229, 231, 235, 0.9);
+}
+
+/* About content text */
+body.dark-mode .about-content p,
+body.dark-mode .about-content .lead {
+    color: rgba(229, 231, 235, 0.9);
+}
+
+/* Course card lists */
+body.dark-mode .course-card ul li,
+body.dark-mode .course-card ul {
+    color: rgba(229, 231, 235, 0.9);
+}
+
+/* Achievement item paragraphs */
+body.dark-mode .achievement-item p {
+    color: rgba(229, 231, 235, 0.9);
+}
+
+/* Footer menu items */
+body.dark-mode .footer-menu a {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+body.dark-mode .footer-menu a:hover {
+    color: white !important;
+}
+
+/* Professional Contact Icon Colors */
+body.dark-mode .location-icon {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+body.dark-mode .email-icon {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+body.dark-mode .phone-icon {
+    background: linear-gradient(135deg, #5f72bd 0%, #9921e8 100%) !important;
+}
+
+body.dark-mode .availability-icon {
+    background: linear-gradient(135deg, #4facfe 0%, #667eea 100%) !important;
+}
+
+/* Project Section Specific Fixes */
+body.dark-mode #projects h2,
+body.dark-mode #projects h3 {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .section-subtitle {
+    color: #9ca3af !important;
+}
+
+body.dark-mode .project-category .badge {
+    color: #fff !important;
+}
+
+body.dark-mode .project-content h3 {
+    color: #e5e7eb !important;
+}
+
+body.dark-mode .project-content p {
+    color: rgba(229, 231, 235, 0.85) !important;
+}
+
+body.dark-mode .tech-tag {
+    color: #4d9fff !important;
+    background: rgba(77, 159, 255, 0.15) !important;
+    border-color: rgba(77, 159, 255, 0.3) !important;
+}
+
+/* Ensure filter buttons are visible */
+body.dark-mode .filter-btn {
+    color: #4d9fff !important;
+    border-color: #4d9fff !important;
+}
+
+body.dark-mode .filter-btn.active {
+    color: white !important;
+}
+
+/* Project overlay icons */
+body.dark-mode .project-link {
+    color: #4d9fff !important;
+}
+
+body.dark-mode .project-link:hover {
+    background: #1f2937 !important;
+    color: white !important;
+}
+

@@ -1,0 +1,227 @@
+/* RTL Styles for Arabic Language */
+html[dir="rtl"] {
+    direction: rtl;
+}
+
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+/* Navbar RTL */
+html[dir="rtl"] .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .navbar-toggler {
+    margin-left: 0;
+}
+
+html[dir="rtl"] .language-toggle,
+html[dir="rtl"] .dark-mode-toggle {
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+/* Hero Section RTL */
+html[dir="rtl"] .hero-buttons .btn {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+html[dir="rtl"] .hero-buttons .btn:first-child {
+    margin-left: 0;
+}
+
+html[dir="rtl"] .social-links {
+    direction: ltr;
+}
+
+/* Info List RTL */
+html[dir="rtl"] .info-list i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Timeline RTL */
+html[dir="rtl"] .timeline::before {
+    left: auto;
+    right: 50px;
+}
+
+html[dir="rtl"] .timeline-icon {
+    left: auto;
+    right: 30px;
+}
+
+html[dir="rtl"] .timeline-item {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+html[dir="rtl"] .timeline-content {
+    transform: none;
+}
+
+html[dir="rtl"] .timeline-content:hover {
+    transform: translateX(10px);
+}
+
+/* Skill Header RTL */
+html[dir="rtl"] .skill-header i {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Contact Icons RTL */
+html[dir="rtl"] .contact-icon {
+    margin-right: 0;
+    margin-left: 1.2rem;
+}
+
+html[dir="rtl"] .contact-detail-item {
+    text-align: right;
+}
+
+html[dir="rtl"] .contact-detail-item:hover {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] .contact-text h5 {
+    text-align: right;
+}
+
+html[dir="rtl"] .form-label i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .form-control {
+    text-align: right;
+}
+
+html[dir="rtl"] textarea.form-control {
+    text-align: right;
+}
+
+html[dir="rtl"] .contact-form {
+    direction: rtl;
+}
+
+html[dir="rtl"] .submit-btn {
+    width: 100%;
+}
+
+html[dir="rtl"] .contact-header,
+html[dir="rtl"] .form-header {
+    gap: 1rem;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+html[dir="rtl"] .social-connect {
+    text-align: right;
+}
+
+html[dir="rtl"] .social-connect h5 {
+    text-align: right;
+}
+
+/* Form Labels RTL */
+html[dir="rtl"] .form-label i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .social-connect h5 i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Footer RTL */
+html[dir="rtl"] .footer-menu a {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .footer-menu a i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .footer-contact-list i {
+    margin-right: 0;
+    margin-left: 0.8rem;
+}
+
+html[dir="rtl"] .footer-credit {
+    text-align: left;
+}
+
+/* Mobile RTL */
+@media (max-width: 768px) {
+    html[dir="rtl"] .footer-copyright,
+    html[dir="rtl"] .footer-credit {
+        text-align: center;
+    }
+    
+    html[dir="rtl"] .timeline::before {
+        right: 20px;
+    }
+    
+    html[dir="rtl"] .timeline-icon {
+        right: 0;
+    }
+    
+    html[dir="rtl"] .timeline-item {
+        padding-right: 70px;
+    }
+}
+
+/* Button Icons RTL */
+html[dir="rtl"] .btn i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+html[dir="rtl"] .hero-buttons .btn i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Achievement Icon RTL */
+html[dir="rtl"] .achievement-icon {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+/* Social Links RTL - Keep LTR */
+html[dir="rtl"] .social-links-large {
+    direction: ltr;
+}
+
+html[dir="rtl"] .footer-social {
+    direction: ltr;
+}
+
+/* Project Links RTL */
+html[dir="rtl"] .project-category .badge {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Availability Status RTL */
+html[dir="rtl"] .badge .me-1 {
+    margin-right: 0 !important;
+    margin-left: 0.25rem !important;
+}
+
+/* Interpersonal Skill Icons RTL */
+html[dir="rtl"] .interpersonal-skill i {
+    margin: 0 auto 1rem;
+}
+
+/* Hero Stats RTL */
+html[dir="rtl"] .hero-stats {
+    direction: rtl;
+}

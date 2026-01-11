@@ -1,0 +1,27 @@
+{
+  "name": "ahmed-abdelwahed-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Ahmed Abdelwahed - Full Stack Developer",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "git add . && git commit -m 'Update portfolio' && git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdelwahed22/abdelwahed22.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "developer",
+    "asp.net-core",
+    "angular",
+    "egypt"
+  ],
+  "author": "Ahmed Abdelwahed <abdelwahed1092@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdelwahed22/abdelwahed22.github.io/issues"
+  },
+  "homepage": "https://abdelwahed22.github.io/"
+}
